@@ -1,0 +1,47 @@
+
+.login-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-column, .right-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-column {
+    background-color: green;
+  }
+  
+  .right-column {
+    background-color: #222629;
+    transition: transform 2s ease-in-out;
+  }
+  
+  .slide-out {
+    transform: translateX(110%);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, button {
+    margin: 10px;
+  }
+  
+  .welcome-message {
+    animation: fadeOut 3s forwards;
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
