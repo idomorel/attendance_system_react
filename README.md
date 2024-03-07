@@ -1,3 +1,18 @@
+# Attendance System - React
+This is the main frontend of my attendance system, created using React.
+This uses my API (Written in Node.js and express) for receiving and sending data. The API code and documentation will be kept private for security reasons.
+For access to the API code, contact me!
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
